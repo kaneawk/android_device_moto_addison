@@ -16,7 +16,7 @@
 /fsg            ext4       /dev/block/bootdevice/by-name/fsg                     flags=backup=1;display="Fsg"
 /efs1           emmc       /dev/block/bootdevice/by-name/modemst1                flags=backup=1;display=EFS
 /efs2           emmc       /dev/block/bootdevice/by-name/modemst2                flags=backup=1;subpartitionof=/efs1
-/oem            ext4       /dev/block/bootdevice/by-name/oem                     flags=backup=1;display="Oem";wipeingui
+/oem            ext4       /dev/block/bootdevice/by-name/oem                     flags=backup=1;display="Oem"
 
 /external_sd    auto       /dev/block/mmcblk1p1    /dev/block/mmcblk1            flags=display="Micro SDCard";storage;wipeingui;removable
 /usb-otg        auto       /dev/block/sda1        /dev/block/sda                 flags=display="USB OTG";storage;wipeingui;removable
